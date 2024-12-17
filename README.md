@@ -8,7 +8,7 @@ implement a stack data structure with efficient time and space complexity.
 
 ### Implementation
 
-- Implement a stack data structure that supports the following operations:
+Implement a stack data structure that supports the following operations:
 - push(item): Add an item to the top of the stack.
 - pop(): Remove and return the item at the top of the stack.
 - peek(): Return the item at the top of the stack without removing it.
