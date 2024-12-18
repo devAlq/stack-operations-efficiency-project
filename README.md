@@ -4,11 +4,11 @@
 This project aims to test your knowledge of time complexity and space complexity.
 
 ### Problem
-implement a stack data structure with efficient time and space complexity.
+Implement a stack data structure with efficient time and space complexity.
 
 ### Implementation
 
-Implement a stack data structure that supports the following operations:
+Implement a stack of characters that supports the following operations:
 - push(item): Add an item to the top of the stack.
 - pop(): Remove and return the item at the top of the stack.
 - peek(): Return the item at the top of the stack without removing it.
@@ -22,4 +22,5 @@ Ensure that all operations have a time complexity of O(1) and a space complexity
  - [ ] The code should run successfully.
  - [ ] Write all the required functions correctly.
  - [ ] Completely define the stack class.
- - [ ] All operations have a time complexity of O(1) and a space complexity of O(n). 
+ - [ ] All operations have a time complexity of O(1) and a space complexity of O(n).
+ - [ ] Submit your project by making a pull request on GitHub and sending the source code via email. 
