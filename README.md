@@ -23,4 +23,4 @@ Ensure that all operations have a time complexity of O(1) and a space complexity
  - [ ] Write all the required functions correctly.
  - [ ] Completely define the stack class.
  - [ ] All operations have a time complexity of O(1) and a space complexity of O(n).
- - [ ] Submit your project by making a pull request on GitHub and sending the source code via email. 
+ - [ ] Submit your project by making a pull request on GitHub. 
