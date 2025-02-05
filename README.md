@@ -15,7 +15,7 @@ Implement a stack of characters that supports the following operations:
 - isEmpty(): Check if the stack is empty.
 - isFull(): Check if the stack is full (if there is a maximum capacity).
 
-Ensure that all operations have a time complexity of O(1) and a space complexity of O(n).
+Ensure that all operations have a time complexity of O(1) and a space complexity of O(1).
 
 
 ### Qualification to pass
