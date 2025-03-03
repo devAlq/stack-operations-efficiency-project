@@ -7,24 +7,24 @@ class Stack{
         size = 0;
     }
 
-    public void push(String value) {
+    public void push(char value) {
         Node newNode = new Node(value);
         newNode.next = peek;
         peek = newNode;
         this.size += 1;
     }
 
-    public String pop() {
+    public char pop() {
 
             if (isEmpty()) {
     
                 System.out.println("Stack is empty.");
     
-                return null;
+                return ' ';
     
             }
     
-            String popped = peek.data;
+            char popped = peek.data;
     
             peek = peek.next;
             this.size-=1;
@@ -35,16 +35,16 @@ class Stack{
 
     
 
-    public String peek() {
+    public char peek() {
         if (isEmpty()){
             System.out.println("stack is empty");
-            return null;
+            return ' ';
         }
         return peek.data;
     }
 
     public boolean isEmpty() {
-        return peek == null;
+     return peek == null;
     }
 
     public int size() {
@@ -54,8 +54,8 @@ class Stack{
 }
 class Node{
     public Node next;
-    public String data;
-    public Node(String data){
+    public char data;
+    public Node(char data){
         this.next = null;
         this.data=data;
     } 
